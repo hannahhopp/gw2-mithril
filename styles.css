@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    background: linear-gradient(135deg, #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%);
+    background: black;
 }
 
 .icon {
@@ -9,16 +9,22 @@ body {
     margin: 2px;
 }
 
-.Junk {
-    border: 3px solid black;
+.icon:hover {
+    opacity: 0.8;
+    box-shadow: 2px 2px 2px white;
+    transition: 0.5s;
 }
 
-.Basic {
+.Junk {
     border: 3px solid grey;
 }
 
+.Basic {
+    border: 3px solid white;
+}
+
 .Fine {
-    border: 3px solid lightblue;
+    border: 3px solid rgb(60, 149, 179);
 }
 
 .Masterwork {
