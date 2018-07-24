@@ -1,5 +1,5 @@
-const m = require("mithril");
+import m from "mithril";
 
-const test = require("../test");
+import ItemList from "./views/ItemList";
 
-m.mount(document.body, test);
+m.mount(document.body, ItemList);
