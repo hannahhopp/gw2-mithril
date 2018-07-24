@@ -1,5 +1,42 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%);
+}
+
 .icon {
     width: 75px;
     height: 75px;
     margin: 2px;
+}
+
+.Junk {
+    border: 3px solid black;
+}
+
+.Basic {
+    border: 3px solid grey;
+}
+
+.Fine {
+    border: 3px solid lightblue;
+}
+
+.Masterwork {
+    border: 3px solid green;
+}
+
+.Rare {
+    border: 3px solid yellow;
+}
+
+.Exotic {
+    border: 3px solid orange;
+}
+
+.Ascended {
+    border: 3px solid fuchsia;
+}
+
+.Legendary {
+    border: 3px solid purple;
 }
